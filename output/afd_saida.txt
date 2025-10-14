@@ -1,0 +1,14 @@
+FG E EH D AC B H
+AC
+EH E
+AC 0 D
+AC 1 B
+D 0 EH
+D 1 D
+B 0 FG
+B 1 B
+EH 0 H
+EH 1 E
+FG 1 H
+H 0 H
+H 1 E

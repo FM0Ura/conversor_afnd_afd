@@ -1,0 +1,26 @@
+// AFD Convertido
+digraph {
+	rankdir=LR
+	node [shape=doublecircle]
+	EH
+	E
+	node [shape=circle]
+	AC
+	B
+	FG
+	D
+	H
+	"" [shape=point]
+	"" -> AC
+	AC -> D [label=0]
+	AC -> B [label=1]
+	D -> EH [label=0]
+	D -> D [label=1]
+	B -> FG [label=0]
+	B -> B [label=1]
+	EH -> H [label=0]
+	EH -> E [label=1]
+	FG -> H [label=1]
+	H -> H [label=0]
+	H -> E [label=1]
+}
