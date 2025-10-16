@@ -6,10 +6,10 @@ digraph {
 	E
 	node [shape=circle]
 	AC
-	B
 	FG
-	D
 	H
+	B
+	D
 	"" [shape=point]
 	"" -> AC
 	AC -> D [label=0]

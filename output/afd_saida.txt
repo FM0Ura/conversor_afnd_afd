@@ -1,4 +1,4 @@
-FG E EH D AC B H
+AC EH D B H E FG
 AC
 EH E
 AC 0 D

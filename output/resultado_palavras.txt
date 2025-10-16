@@ -5,3 +5,4 @@
 1 não aceito
 0 não aceito
 ε não aceito
+0111110 aceito

@@ -4,13 +4,13 @@ digraph {
 	node [shape=doublecircle]
 	E
 	node [shape=circle]
-	A
-	F
-	B
 	G
-	D
+	A
 	C
+	F
 	H
+	B
+	D
 	"" [shape=point]
 	"" -> A
 	A -> C [label=h]
@@ -20,8 +20,8 @@ digraph {
 	B -> F [label=0]
 	C -> D [label=0]
 	D -> D [label=1]
-	D -> H [label=0]
 	D -> E [label=0]
+	D -> H [label=0]
 	F -> G [label=h]
 	G -> H [label=1]
 	H -> H [label=0]
