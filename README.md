@@ -62,11 +62,11 @@ Edite o arquivo `palavras.txt` e insira as palavras que você deseja testar no a
 1
 ```
 
-### 3. Execute o Notebook
+### 3. Execute o arquivo
 
-Abra o arquivo `main.ipynb` em um ambiente compatível com Jupyter Notebooks (como o VS Code) e execute todas as células.
+execute o arquivo `main.py`.
 
-O notebook irá realizar as seguintes ações em ordem:
+O programa irá realizar as seguintes ações em ordem:
 1.  Carregar o AFND do `arquivo_entrada.txt`.
 2.  Gerar uma imagem do AFND (`output/afnd_entrada.png`).
 3.  Converter o AFND para um AFD.
@@ -85,7 +85,7 @@ Após a execução, a pasta `output/` conterá os seguintes arquivos:
 
 ## Estrutura do Projeto
 
--   `main.ipynb`: Notebook principal que orquestra todo o processo.
+-   `main.ipynb`: programa principal que orquestra todo o processo.
 -   `funcoes.py`: Módulo com todas as funções para conversão, visualização e reconhecimento de palavras.
 -   `arquivo_entrada.txt`: Arquivo para definir o AFND.
 -   `palavras.txt`: Arquivo com as palavras a serem testadas.
